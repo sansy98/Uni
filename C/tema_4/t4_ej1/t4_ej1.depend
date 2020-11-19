@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605692398 source:/home/ruizzpy/Documents/UNI/1er_Semestre/Fundamentos_de_Programacion/Tema_4/t4_ej1/main.c
+	<stdio.h>
+	<stdlib.h>
+

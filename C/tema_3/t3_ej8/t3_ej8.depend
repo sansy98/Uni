@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1604323939 source:c:\users\pablo ruiz\dropbox\c\tema_3\t3_ej8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

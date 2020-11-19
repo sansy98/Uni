@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604063092 source:c:\users\pablo ruiz\documents\c\tema_3\t3_ej2\main.c
+	<stdio.h>
+	<stdlib.h>
+

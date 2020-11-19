@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1604327562 source:c:\users\pablo ruiz\dropbox\c\tema_3\t3_ej10\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1604327562 
+
+1604579096 source:/home/ruizzpy/Dropbox/C/Tema_3/t3_ej10/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
