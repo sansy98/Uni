@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606901043 source:/home/ruizzpy/Dropbox/C/Tema_3/Uni/C/Tema_5/t5ej2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
