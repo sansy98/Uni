@@ -54,7 +54,7 @@ syms x;
 y=(3*x.^2+6*x-1)/(x.^2+x-3);
 %A.V
 p=[1,1,-3];
-r=roots(p);
+r=roots(p)
 limit((y),x,-2.3028,"left")  %= 6824147/549
 limit((y),x,-2.3028,"right") %= 6824147/549
 limit((y),x,1.3028,"left")   %= 74429147/549
@@ -66,4 +66,19 @@ limit((y),x,Inf,"left")      %= 3
 limit((y),x,-Inf,"right")    %= 3
 %Hay A.H en (y = 3)
 
-%Ejercicio 6:
+clear
+
+%Ejercicio 6: Utilizar el criterio de la derivada segunda para hallar los
+%extremos relativos de la funcion f(x)=3x^2+6x-1)/(x^2+x-3).
+%Encontrar tambien puntos de inflexion, si es que existen.
+%C.2a derivada: <0 max, >0 min.
+
+syms x;
+f=(3*x.^2+6*x-1)/(x.^2+x-3);
+f1=diff(f,x);
+f2=diff(f1,x);
+limit((f2),x,0) %= P.I (-82/27 , 6159/2323) 
+solve(f)
+subs(f,x,(limit((f2),x,0)))%=(Imagen para el P.I de la linea 80)
+fplot(f2,[-30 30]),title("Max y min"); grid on; zoom on;
+
