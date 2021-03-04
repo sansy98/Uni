@@ -1,0 +1,34 @@
+=====================================================================
+RESULTADO ElimGauss01.sce
+---------------------------------------------------------------------
+Al introducir esta matriz en el script ElimGauss01.sce obtenemos como
+solución los valores (x,y,z) = (-1,-2,-1)
+La matriz L resultante es:
+    1. 0. 0.
+    2. 1. 0.
+    3. 4. 1.
+La matriz U resultante es:
+    1. 1. 1.
+    0. -1. -3.
+    0. 0. 11.
+Y como debe ocurir, la matriz P resultante coincide con la m.identidad
+    1. 0. 0.
+    0. 1. 0.
+    0. 0. 1.
+ 
+======================================================================
+RESULTADO ElimGauss02.sce
+----------------------------------------------------------------------
+Al introducir esta matriz en el script ElimGauss02.sce obtenemos de nuevo
+como solución los valores (x,y,z) = (-1,-2,-1)
+La matriz P resultante coincide con la m.identidad:
+    1. 0. 0.
+    0. 1. 0.
+    0. 0. 1.
+La matriz U resultante es:
+    1. 1. 1.
+    2. -1. -3.
+    3. 4. 11.
+Los elementos que en la matriz U de la ejecución del script ElimGauss01.sce
+eran 0 coinciden en este segundo script con los valores por debajo de la diagonal
+de la matriz L resultante en el primer script.

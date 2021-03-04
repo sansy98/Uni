@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1610627207 source:g:\mi unidad\2020-2021\fundamentosprogramacion\ejercicios\tema6\ejemplo2\main.c
+	<stdio.h>
+	<stdlib.h>
+
